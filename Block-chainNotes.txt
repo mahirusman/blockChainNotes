@@ -93,3 +93,9 @@ Block chain is distributed and using p2p network
 What is coin vs token in cryotourrency
 
 
+
+Mineable cryptocurrency are crypt currency where you calm ownership some amount of new coins just by contributing to the creation of new node to the blockChain this is how bitcoin works
+
+Not mineable cryptocurrency <=> example ripple (XRP coin)
+
+

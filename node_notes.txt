@@ -1,0 +1,86 @@
+thread pool : tread pool is a mechanism which handle intensive or blocking tasks in worker threads distinct from the event loop single tread it allows nodes to perform CPU-bound operations with out blocking the event loop
+
+Threads are manage using master slave articture
+
+
+Libuv is responsible for:
+
+Event loop
+Asynchronous I/O
+Cross-platform 
+Thread Pool
+Time Management
+
+
+
+What is Cluster in Nodejs : Cluster module is a build-in module allows you to create child processes to distribute the work across multiple CUP cors
+
+IPC Channels : The master and worker processes communicate using IPC changes 
+
+Worker treads runs JavaScript code is sprint thread and utilise the available CPU cars for concurrently
+
+
+Libuv : is a cross platforms library written in C which is responsible to provides asynchronous I/O operations and an event loop implementation
+
+Nodejs is a Event Driven , non blocking I/o model
+
+Event-Drivern : the flow of program is determined by events that occurs asynchronous it case of nodejs and event can be incoming request , file read , network communication timer expiration
+Insted if tradition way that nodjs wait for any event to complete it handle callback or register event handle which want for those events to complete and then it response accordingly 
+
+
+
+
+
+
+
+Event Queue || task Queue || callback Queue : is a data structure that holds events and their associate callbacks until they are processed by the event loop When an asynchronous operation or event occurs, its corresponding callback function is added to the event queue
+
+
+
+Call Stack: The call stack keeps track of the currently executing functions in the JavaScript runtime
+
+
+
+Microtask Queue : is a separate queue that holds microtasks.
+
+Microtasks are typically small asynchronous tasks that need to be executed before the event loop execute the tasks from callback queues. Promises and certain APIs like process.nextTick() and queueMicrotask() add microtasks to the microtask queue.
+
+
+
+
+Socket use TCP connection = Socket is two way communication  
+
+
+
+What are Generators in javaScript
+
+
+
+What is module.exports and export all and default export
+
+
+
+
+REPL stands for "Read-Eval-Print Loop."
+
+util.promisify : method is used to covert callback style asynchronous function to functions that returns promises
+
+
+
+
+We can avoid callback hell with help of
+Promises lile unit.promisify
+Async/await
+Control flow libraries like async.js
+
+
+
+
+We send message to FCM token : FCM token specific app on a specific device 
+We can send message to a topic : An app instance can subscribe to any topic so you are targeting to everyone who has subscribed to the topic
+We can send message to a device group : we can group FCM tokes into group of up to 20 which you we can target with a single message
+
+A user can login on multiple devices or multiple users can login on one device in such case to manage FCM tokens we can use token registry
+
+
+The token registry is responsible for storing and organising the FCM tokens in a way that allows you to send targeted messages to specific devices or groups of devices.
