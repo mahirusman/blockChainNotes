@@ -1,3 +1,6 @@
+BlockChain , Cryptography , NFT , Decentralization , Defi , DAO , 
+
+
 Each block record some data
 
 Each block link to-gather with crypto Graphy
@@ -99,3 +102,10 @@ Mineable cryptocurrency are crypt currency where you calm ownership some amount 
 Not mineable cryptocurrency <=> example ripple (XRP coin)
 
 
+Federated Decentralization model vs Absolute decentralization model
+
+
+
+//Stephen Grider Notes on BlockChain:
+
+Search about Anders course on udemy for blockChain
