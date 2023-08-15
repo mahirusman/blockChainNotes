@@ -19,8 +19,12 @@ IPC Channels : The master and worker processes communicate using IPC changes
 
 Worker treads runs JavaScript code is sprint thread and utilise the available CPU cars for concurrently
 
+By default, the cluster module uses round-robin load balancing
+
 
 Libuv : is a cross platforms library written in C which is responsible to provides asynchronous I/O operations and an event loop implementation
+
+
 
 Nodejs is a Event Driven , non blocking I/o model
 
@@ -69,7 +73,7 @@ util.promisify : method is used to covert callback style asynchronous function t
 
 
 We can avoid callback hell with help of
-Promises lile unit.promisify
+Promises utils unit.promisify
 Async/await
 Control flow libraries like async.js
 

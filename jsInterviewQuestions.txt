@@ -1,0 +1,40 @@
+What is Hoisting in JavaScript?
+What are Callbacks in JavaScript?
+What are Closures in JavaScript?
+What are async functions in JavaScript?
+What is the purpose of constructors in JavaScript?
+What is the difference between '==' and '===' in JavaScript?
+What is the difference between 'null' and 'undefined' in JavaScript?
+What are the different data types in JavaScript?
+What is NaN in JavaScript?
+What are var, const, let keywords in JavaScript?
+What is 'strict mode' in JavaScript?
+What are Arrow Functions in JavaScript?
+What is Object Destructuring in JavaScript?
+What is the Spread Syntax or Spread Operator?
+What is the Rest Syntax or Rest Operator?
+What are Higher-order functions in JavaScript?
+What is the difference between map() and forEach() in JavaScript?
+What is Immediately Invoked Function Expression (IIFE) in JavaScript?
+What is the purpose of the 'this' operator in JavaScript?
+What are Promises in JavaScript?
+What are events in JavaScript?
+What are setTimeout and setInterval methods in JavaScript?
+What is debouncing and throttling in JavaScript?
+What is event bubbling in JavaScript?
+What are the different scopes in JavaScript?
+What is Scope Chain in JavaScript?
+What are function prototypes in JavaScript?
+What are call(), apply() and bind() methods in JavaScript?
+How do you create a polyfill for the bind() function?
+What is HTML DOM?
+What is the difference between window and document in JavaScript?
+What is Event Loop in JavaScript?
+What is Callback Queue in JavaScript?
+What is Type Coercion in JavaScript?
+What is Currying in JavaScript?
+What is the difference between 'async' and 'defer' attributes?
+What is Temporal Dead Zone in JavaScript?
+What is Object Flattening in JavaScript?
+What are iterators and generators in JavaScript?
+What is Prototypal Inheritance (prototype chain) in JavaScript?

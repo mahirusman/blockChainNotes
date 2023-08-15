@@ -1,4 +1,32 @@
 MongoDB : MongoDB is a NoSQL document database that provide high performance scalability and flexibility for storing data i store data in JSON like formate called Binary JSON
+
+SQL : schema 
+
+     flexibility need to run migrations
+    not complisary to run migrations
+
+    scaling sql support vertical scalling while no sql supprt horizontal
+
+    in sql data is organized in form of tables and relationships while in no-sql data can be stored in key-value paris
+    documents or maybe in graph
+
+    in user and friends table there wil be one-may relationship
+    one user has many friends but every friend is associated with one user
+
+
+what is socket.io : 
+
+socket.io is a real-time , bidirectional , event base communication 
+real-time mean once the connection is establishes the it will be persistent
+socket.io use WebSockets incase of its absent it use long polling or server-sent events.
+
+Room  : are used to group clients together => socket.join('room')  socket.to('room') socket.leave('room')
+namespaces : Namespaces provide a way to separate communication channels within a socket.io
+
+
+Promise.allSettled came with ES20
+
+
 MonogBD has horizontal scaling
 
 MongoDB is a schema-less

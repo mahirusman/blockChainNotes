@@ -1,0 +1,37 @@
+ES6 (ECMAScript 2015) got new feathers:
+BlockScope let and const
+Arrow Functions
+Template Literals
+Rest and Spread Operators
+Classes
+Modules
+Promises
+iterators and Generators
+
+
+functions are first citizens Objects in JavaScript
+so Callback functions are functions which passAsArgument to an other function and  is executed later in response to an event or as a result of an asynchronous operation
+
+
+function GetSum(5)(10)
+
+function GetSum(num1){
+    return function(num2){
+        return num1+num2
+    }
+}
+
+Object.prototype.toString.call("5");
+
+Promises are supecial type of Objects that provide a way to handle outcome of asynchronous Operators(failer or success) in more eligant way then traditional Callback style which case callback hell
+they came in ES6 2015 and handle in 
+
+callback hell refers to a situation where multiple level of nested callback are used  it typically occur when dealing with
+asynchronous operations where results of previous function dependent on next level
+
+
+call bind and apply is way of to set the context and arguments of a function during its execution
+
+call will Immediately call the function
+bind will return the function which will be called later
+apply will Immediately call the function and accept array as second arguments
