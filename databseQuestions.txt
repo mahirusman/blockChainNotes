@@ -85,7 +85,8 @@ ii) 5-byte random values
 iii) 3-byte incrementing counter
 
 how we can update data in mongoDB using Aggregation
-how you can update data in chunks for large document update
+how you can update data in chunks for large document update or we can use bulkWrite
 how we can optimize mongoDB database query
 what are middleware or hooks in mongoose
 what is bulk write in mongoDB
+how we can read large data file i.e 5GB in nodejs

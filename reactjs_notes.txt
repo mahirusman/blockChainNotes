@@ -1,1 +1,5 @@
-reconciliation in reactjs : reconciliation in React is the process of efficiently updating the actual DOM to reflect changes in the state or props of a component by comparing the new Virtual DOM with the previous one and making minimal, targeted updates to the actual DOM. This process is a key factor in React's ability to provide a responsive and performant user interface.
+reconciliation in reactjs : reconciliation in React is the process of efficiently updating the actual DOM to reflect changes in the state or props of a component by comparing the new Virtual DOM with the previous one and making minimal, targeted updates to the actual DOM.
+This process is a key factor in React's ability to provide a responsive and performant user interface.
+
+
+what is batching in reactjs: is a performance optimization technique that makes React applications faster by reducing the overhead of frequent DOM updates. By grouping multiple updates together
