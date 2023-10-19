@@ -83,3 +83,9 @@ _id is automatic created objectId() of 12-bytes where
 i) 4-byte timestamp
 ii) 5-byte random values
 iii) 3-byte incrementing counter
+
+how we can update data in mongoDB using Aggregation
+how you can update data in chunks for large document update
+how we can optimize mongoDB database query
+what are middleware or hooks in mongoose
+what is bulk write in mongoDB
