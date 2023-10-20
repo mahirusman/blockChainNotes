@@ -90,3 +90,6 @@ how we can optimize mongoDB database query
 what are middleware or hooks in mongoose
 what is bulk write in mongoDB
 how we can read large data file i.e 5GB in nodejs
+
+
+what is a cover query

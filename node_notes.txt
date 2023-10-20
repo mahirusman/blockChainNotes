@@ -1,4 +1,5 @@
-thread pool : tread pool is a mechanism which handle intensive or blocking tasks in worker threads distinct from the event loop single tread it allows nodes to perform CPU-bound operations with out blocking the event loop
+thread pool : tread pool is a mechanism which handle intensive or blocking tasks in worker threads distinct from the event loop single 
+tread it allows nodes to perform CPU-bound operations with out blocking the event loop
 
 Threads are manage using master slave articture
 
@@ -47,7 +48,10 @@ Insted if tradition way that nodjs wait for any event to complete it handle call
 
 
 
-Event Queue || task Queue || callback Queue : is a data structure that holds events and their associate callbacks until they are processed by the event loop When an asynchronous operation or event occurs, its corresponding callback function is added to the event queue
+Event Queue || task Queue || callback Queue : is a data structure that holds events and their associate 
+callbacks until they are processed by the
+event loop When an asynchronous operation or event occurs, its corresponding
+callback function is added to the event queue
 
 
 
