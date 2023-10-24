@@ -1,5 +1,9 @@
-for (var i = 5; i > 0; i--) {
-  setTimeout(() => {
-    console.log(i);
-  }, i);
-}
+const person = {
+  name: "John",
+  sayHello: () => {
+    console.log(this);
+  },
+};
+
+name = "usman";
+person.sayHello(); // Outputs 'true'

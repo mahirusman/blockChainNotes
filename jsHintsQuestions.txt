@@ -35,3 +35,7 @@ call bind and apply is way of to set the context and arguments of a function dur
 call will Immediately call the function
 bind will return the function which will be called later
 apply will Immediately call the function and accept array as second arguments
+
+
+hosting: refer to behaviour where variables and function declaration are moved to the top of their containing schope
+during the compilation phase     
