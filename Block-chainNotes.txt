@@ -52,7 +52,7 @@ We need to look throw block chain and its transactions to get the current balanc
 
 What are nonce : 
 
-Proof of work vs proof of stak
+Proof of work vs proof of stack
 
 
 Nonce = number only used once
@@ -104,6 +104,13 @@ Not mineable cryptocurrency <=> example ripple (XRP coin)
 
 Federated Decentralization model vs Absolute decentralization model
 
+
+
+what is IPFS :  
+
+how IPFS works : 
+
+what is IPFS pinnng : 
 
 
 //Stephen Grider Notes on BlockChain:

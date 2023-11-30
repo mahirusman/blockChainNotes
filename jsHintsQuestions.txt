@@ -26,7 +26,7 @@ Object.prototype.toString.call("5");
 Promises are supecial type of Objects that provide a way to handle outcome of asynchronous Operators(failer or success) in more eligant way then traditional Callback style which case callback hell
 they came in ES6 2015 and handle in 
 
-callback hell refers to a situation where multiple level of nested callback are used  it typically occur when dealing with
+callback hell refers to a situation where multiple level of nested callback are used it typically occur when dealing with
 asynchronous operations where results of previous function dependent on next level
 
 

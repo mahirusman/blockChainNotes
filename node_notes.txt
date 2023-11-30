@@ -22,13 +22,14 @@ in sprit process , best practise is that we create one process against each core
 
 IPC Channels : The master and worker processes communicate using IPC changes 
 
-Worker process runs JavaScript code in sprint thread and utilise the available CPU cars for concurrently
+Worker process runs JavaScript code in sprint thread and utilise the available CPU cors for concurrently
 
 By default, the cluster module uses round-robin load balancing
 
 
 
 what is diff b/w spawn and fork : spawn allow you to create new process and execute external commands or scripts
+
 fork : on the other way use to create child_process it create new instance of the nodejs running using same prot and they 
 communicate using IPC chanel
 
