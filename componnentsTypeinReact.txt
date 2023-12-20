@@ -1,0 +1,31 @@
+Pure Components:
+optimize the performance by implementing shallow comparison on the state and prop of the component
+
+class MyComponent extends React.PureComponent {}
+
+React.memo(function MyComponent (){})
+
+
+HOC is a function that takes components as argument and can return new component with additional props or changing
+it is helpfull to resuce the code logic
+connect function of redux is best example of this 
+connect(mapStateToProps, mapDispatchToProps)(yourReactComponent)
+
+React Fragment:
+
+A built-in component that allows you to group multiple elements without adding an extra node to the DOM. It helps avoid unnecessary div wrappers.
+
+Portal Components:
+
+Components that allow rendering children into a DOM node outside the parent component's hierarchy. Portals are useful for scenarios like modals or tooltips.
+
+
+Error Boundary Components:
+
+    Components that catch JavaScript errors anywhere in their child component tree and log those errors or display a fallback UI. Introduced using the componentDidCatch lifecycle method.
+
+Suspense Components:
+
+    Components that enable declarative data fetching and rendering of fallback content while waiting for the data to arrive. Used in combination with the React.lazy function for lazy loading 
+we use it with async ui loading 
+code spliting By dynamically loading components when they are needed, you can reduce the initial bundle siz

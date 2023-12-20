@@ -8,3 +8,19 @@ This process is a key factor in React's ability to provide a responsive and perf
 
 what is batching in reactjs: is a performance optimization technique that makes React applications faster
  by reducing the overhead of frequent DOM updates. By grouping multiple updates together
+
+
+
+
+
+
+ what is difference between useState and useReducer in reactjs
+
+ what is react fragment and rect portal
+
+ what are pure components in reactjs
+
+ what is use of useRef inste of getting refercne of element
+
+
+ what are side effects in reactjs application
