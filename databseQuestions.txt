@@ -93,3 +93,17 @@ how we can read large data file i.e 5GB in nodejs
 
 
 what is a cover query
+Aim for covered queries where the index includes all the fields needed for a query
+
+
+connection pool:
+A connection pool is a set of open TCP connections your driver maintains with a MongoDB instance. Connection pools help reduce the number of network handshakes your application needs to perform and can help your application run faster
+
+
+const mongooseOptions = {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  poolSize: 10, 
+};
+
+mongoose.connect(mongoDBUri, mongooseOptions);
