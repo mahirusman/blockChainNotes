@@ -103,3 +103,13 @@ A user can login on multiple devices or multiple users can login on one device i
 
 
 The token registry is responsible for storing and organising the FCM tokens in a way that allows you to send targeted messages to specific devices or groups of devices.
+
+
+for what kind of projects nodejs is best choise and not good choise
+
+it is best for projects where you want to handel large number of concurrent operations with out any block 
+and with the use of minimum resources of the system due to their single traded , event loop articeture
+
+but if you have any projects which is using large amount of computational power like maybe it is doing
+file processing , hight alogtherium  or maybe image processing or any other cup intensive task
+then python or the java will be best choise
