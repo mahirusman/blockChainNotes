@@ -1,7 +1,7 @@
 function validateRegex(regex) {
   const stack = [];
   const openingBrackets = "([{";
-  const closingBrackets = ")]";
+  const closingBrackets = ")]}";
 
   for (let char of regex) {
     if (openingBrackets.includes(char)) {
@@ -68,3 +68,13 @@ if (hasPairWithSum(numbers, target)) {
 } else {
   console.log("No pair with the target sum found.");
 }
+
+const flattenArray = (arr) => {
+  return [].concat(
+    ...arr.map((item) => (Array.isArray(item) ? flattenArray(item) : item))
+  );
+};
+
+const sds = [1, 2, 3, [7, 2, 6, 8, [89, 54, 23, 5, 7]]];
+
+const flattenedArray = flattenArray(sds);

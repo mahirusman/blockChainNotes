@@ -39,7 +39,7 @@ collection => is a collection of Documents
 
 
 
-when the embedded data is small, doesn't change frequently, and is always accessed together with the parent document.
+when the embedded data is small, doesn't change frequently, and is always accessed together with the parent document. its max size is 16MB
 
 
 Aggregation is a way of processing a large number of documents in a collection by means of passing them through different stages.

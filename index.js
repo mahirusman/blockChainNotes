@@ -18,23 +18,6 @@ const array = [1, 2, -10, 3, 6];
 
 // console.log('sum',sum)
 
-function hasSumEqualToNumber(array, targetSum) {
-  const visitedNumbers = new Set();
-
-  for (let i = 0; i < array.length; i++) {
-    const currentNumber = array[i];
-    const difference = targetSum - currentNumber;
-
-    if (visitedNumbers.has(difference)) {
-      return true;
-    }
-
-    visitedNumbers.add(currentNumber);
-  }
-
-  return false; // No pair found with the given sum
-}
-
 //  const results= hasSumEqualToNumber(array,9)
 
 //  console.log('results',results)
@@ -55,19 +38,6 @@ function Name(params) {
   var i = 10;
 }
 // Name();
-
-function fibonacci(n) {
-  if (n <= 1) {
-    return n;
-  }
-
-  return fibonacci(n - 1) + fibonacci(n - 2);
-}
-
-var count = 10;
-for (var i = 0; i < count; i++) {
-  // console.log(fibonacci(i));
-}
 
 // function Factorial(n) {
 //   if (n == 0 || n == 1) {
@@ -98,17 +68,17 @@ console.log(flattenedArray);
 // Output: [1, 2, 3, 8, 1, 3, 9, 4]
 
 function FlatObject(obj, prefix = "") {
-  let flattened={}
+  let flattened = {};
   for (const key in obj) {
     if (typeof obj[key] == "object" && obj[key] !== null) {
       let nestedObj = FlatObject(obj[key], prefix + key + ".");
       flattened = { ...flattened, ...nestedObj };
-    
-  }else{
-    flattened[prefix+key]=obj[key]
-  }}
+    } else {
+      flattened[prefix + key] = obj[key];
+    }
+  }
 
-  return flattened
+  return flattened;
 }
 
-console.log('FlatObject',FlatObject({a:10,b:{a:1,b:1}}))
+console.log("FlatObject", FlatObject({ a: 10, b: { a: 1, b: 1 } }));

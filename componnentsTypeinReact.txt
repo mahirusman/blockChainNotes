@@ -28,4 +28,5 @@ Suspense Components:
 
     Components that enable declarative data fetching and rendering of fallback content while waiting for the data to arrive. Used in combination with the React.lazy function for lazy loading 
 we use it with async ui loading 
+
 code spliting By dynamically loading components when they are needed, you can reduce the initial bundle siz
