@@ -1,8 +1,19 @@
-thread pool : tread pool is a mechanism which handle intensive or blocking tasks in worker threads distinct from the event loop single 
-tread it allows nodes to perform CPU-bound operations with out blocking the event loop
+ child process , worker threads ,  cluster modules:
 
-Threads are manage using master slave articture
 
+ child process : they run code sprint from master process
+ child process can be created using spawn , fork , exec 
+ they communicate using standard input out steam , events 
+
+
+ worker threads : is a process of performing cup extensive task
+ sprit from the main thread it does not block the execution of the event loop
+
+cluster module : in this case we create multiple instances of the 
+same application running  on the same port 
+they follow master slave system 
+they communicate using inter process communication(IPC)
+the cluster module uses round-robin load balancing
 
 Libuv is responsible for:
 
@@ -11,27 +22,6 @@ Asynchronous I/O
 Cross-platform 
 Thread Pool
 Time Management
-
-
-In case of multi-threading you have multiple threads running within the same process sharing memory and data
-while in case of cluster you have multiple process running independently
-
-
-What is Cluster in Nodejs : is a nodejs build-in module which use multiple cup cors to create worker processes which are running 
-in sprit process , best practise is that we create one process against each core they use master slave articeture
-
-IPC Channels : The master and worker processes communicate using IPC changes 
-
-Worker process runs JavaScript code in sprint thread and utilise the available CPU cors for concurrently
-
-By default, the cluster module uses round-robin load balancing
-
-
-
-what is diff b/w spawn and fork : spawn allow you to create new process and execute external commands or scripts
-
-fork : on the other way use to create child_process it create new instance of the nodejs running using same prot and they 
-communicate using IPC chanel
 
 
 Libuv : is a cross platforms library written in C which is responsible to provides asynchronous I/O operations and an event loop implementation
@@ -71,11 +61,6 @@ Socket use TCP connection = Socket is two way communication
 
 
 
-What are Generators in javaScript
-
-
-
-What is module.exports and export all and default export
 
 
 
@@ -94,15 +79,6 @@ Control flow libraries like async.js
 
 
 
-
-We send message to FCM token : FCM token specific app on a specific device 
-We can send message to a topic : An app instance can subscribe to any topic so you are targeting to everyone who has subscribed to the topic
-We can send message to a device group : we can group FCM tokes into group of up to 20 which you we can target with a single message
-
-A user can login on multiple devices or multiple users can login on one device in such case to manage FCM tokens we can use token registry
-
-
-The token registry is responsible for storing and organising the FCM tokens in a way that allows you to send targeted messages to specific devices or groups of devices.
 
 
 for what kind of projects nodejs is best choise and not good choise

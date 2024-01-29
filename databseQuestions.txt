@@ -70,7 +70,20 @@ Second Normal Form : 1NF + eliminates partial dependencies by ensuring that each
 
 Third Normal Form : Eliminates transitive dependencies by ensuring that no non-key column is dependent on another non-key column
 
-what is indexing : An indexing is database structure that enhances query performance by enabling faster data retrieval. Indexes sort and store a copy of the data, making it easier to search and retrieve specific records
+
+/////
+what is indexing : indexing is query performance optimization technique that enables database to store small 
+portion of collection of data in a data structure that in become easy to get specific records instead of searching 
+the whole collection 
+mongoDB use Balanced Tree data structure
+
+Extra space is need for indexing which might create spacing issues
+on case CRUD the indexing need to maintained which slow down the process or maybe results
+as lock the table
+
+what is a cover query
+Aim for covered queries where the index includes all the fields needed for a query
+
 
 
 What is a foreign key : A foreign key is a column or a set of columns in a table that refers to the primary key of another table It establishes relationships between tables by enforcing referential integrity constraints
@@ -85,15 +98,42 @@ ii) 5-byte random values
 iii) 3-byte incrementing counter
 
 how we can update data in mongoDB using Aggregation
-how you can update data in chunks for large document update or we can use bulkWrite
+
+how you can update data in chunks for large document update 
+we can use bulkWrite 
+Example:
+
+const bulkOperations = [
+  { insertOne: { document: { name: 'John', age: 25, salary: 50000 } } },
+  { updateOne: { filter: { name: 'Alice' }, update: { $inc: { salary: 2000 } } } },
+  { deleteOne: { filter: { age: { $gte: 30 } } } },
+];
+
+// ordered true mean perform operations in a sequence and if any fail stop the 
+execution 
+User.bulkWrite(bulkOperations, { ordered: true })
+
+
 how we can optimize mongoDB database query
+
+create indexing
+use bulk write for mulitple updates
+use aggretion piplelines
+perform project to get required attributes
+make sure your hosting service is performing sharding for scaling
+
+
 what are middleware or hooks in mongoose
-what is bulk write in mongoDB
+thess are functions that are called 
+pre or post on save , validate remove etc
+
+
 how we can read large data file i.e 5GB in nodejs
+we can not load whole data of the file in RAM so
+we may use steaming for that process 
+or maybe we can do Buffered with chunks
 
 
-what is a cover query
-Aim for covered queries where the index includes all the fields needed for a query
 
 
 connection pool:
@@ -107,3 +147,5 @@ const mongooseOptions = {
 };
 
 mongoose.connect(mongoDBUri, mongooseOptions);
+
+

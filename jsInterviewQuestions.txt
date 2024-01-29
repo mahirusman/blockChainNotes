@@ -38,3 +38,12 @@ What is Temporal Dead Zone in JavaScript?
 What is Object Flattening in JavaScript?
 What are iterators and generators in JavaScript?
 What is Prototypal Inheritance (prototype chain) in JavaScript?
+
+
+
+
+
+
+
+What are Generators in javaScript
+What is module.exports and export all and default export

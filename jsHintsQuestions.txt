@@ -9,6 +9,12 @@ Promises
 iterators and Generators
 
 
+before ES6 we use callback to handle async operation
+then in ES6 promises are came into pic
+then in ES8 async / await came into picther
+
+
+
 functions are first citizens Objects in JavaScript
 so Callback functions are functions which passAsArgument to an other function and  is executed later in response to an event or as a result of an asynchronous operation
 
