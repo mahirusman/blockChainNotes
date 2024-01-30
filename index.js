@@ -1,4 +1,4 @@
-const array = [1, 2, -10, 3, 6];
+const array = [1, 2, -10, -10, 3, 6];
 
 // const uniqueArray=array.filter((data,index,value)=>{
 //     return value.indexOf(data)==index
@@ -82,3 +82,7 @@ function FlatObject(obj, prefix = "") {
 }
 
 console.log("FlatObject", FlatObject({ a: 10, b: { a: 1, b: 1 } }));
+
+const dobleCat = array.some((data, index) => array.indexOf(data) != index);
+
+console.log("dobleCat", dobleCat);

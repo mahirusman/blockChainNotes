@@ -19,7 +19,7 @@ What is Immediately Invoked Function Expression (IIFE) in JavaScript?
 What is the purpose of the 'this' operator in JavaScript?
 What are Promises in JavaScript?
 What are events in JavaScript?
-What are setTimeout and setInterval methods in JavaScript?
+What are setTimeout , setInterval and setImmediate methods in JavaScript?
 What is debouncing and throttling in JavaScript?
 What is event bubbling in JavaScript?
 What are the different scopes in JavaScript?

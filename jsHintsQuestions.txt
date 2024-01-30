@@ -9,6 +9,10 @@ Promises
 iterators and Generators
 
 
+arrow functions does not have their own this scope
+instead they inheritc this from enclosing scope
+
+
 before ES6 we use callback to handle async operation
 then in ES6 promises are came into pic
 then in ES8 async / await came into picther
