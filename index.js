@@ -39,14 +39,14 @@ function Name(params) {
 }
 // Name();
 
-// function Factorial(n) {
-//   if (n == 0 || n == 1) {
-//     return n;
-//   }
-//   return n * (n - 1);
-// }
-// const sfsdfs = Factorial(0);
-// console.log(sfsdfs);
+function Factorial(n) {
+  if (n == 0 || n == 1) {
+    return n;
+  }
+  return n * Factorial(n - 1);
+}
+const sfsdfs = Factorial(3);
+console.log({ sfsdfs });
 
 function flattenArray(arr) {
   let flattened = [];
@@ -64,7 +64,9 @@ function flattenArray(arr) {
 
 const arr = [1, 2, 3, 8, [1, 3, [9, 4]]];
 const flattenedArray = flattenArray(arr);
+
 console.log(flattenedArray);
+
 // Output: [1, 2, 3, 8, 1, 3, 9, 4]
 
 function FlatObject(obj, prefix = "") {
@@ -81,8 +83,14 @@ function FlatObject(obj, prefix = "") {
   return flattened;
 }
 
-console.log("FlatObject", FlatObject({ a: 10, b: { a: 1, b: 1 } }));
+// console.log("FlatObject", FlatObject({ a: 10, b: { a: 1, b: 1 } }));
 
 const dobleCat = array.some((data, index) => array.indexOf(data) != index);
 
-console.log("dobleCat", dobleCat);
+// console.log("dobleCat", dobleCat);
+
+console.log(5 > 4 > 3);
+console.log(0.1 + 0.2 == 0.3);
+let x = { a: 1 };
+let y = { a: 1 };
+console.log(x == y);
