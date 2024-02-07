@@ -89,8 +89,25 @@ const dobleCat = array.some((data, index) => array.indexOf(data) != index);
 
 // console.log("dobleCat", dobleCat);
 
-console.log(5 > 4 > 3);
-console.log(0.1 + 0.2 == 0.3);
-let x = { a: 1 };
-let y = { a: 1 };
-console.log(x == y);
+// console.log(5 > 4 > 3);
+// console.log(0.1 + 0.2 == 0.3);
+// let x = { a: 1 };
+// let y = { a: 1 };
+// console.log(x == y);
+
+function here(name) {
+  this.firstname = name;
+}
+
+console.log("with new", new here("Usman"));
+console.log("with out new", here("Usman"));
+
+console.log(0 ?? 10);
+console.log(5 || 10);
+
+let x,
+  y = 10;
+console.log("here", x, y);
+
+let x1 = (y1 = 10);
+console.log("there", x1, y1);
