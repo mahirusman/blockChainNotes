@@ -105,3 +105,13 @@ useRef for rendering controal
 react 18 and 16
 
 types of null and undefined
+
+
+Rana Aitsam
+
+race condition
+
+what is atomic transcation 
+
+bun.js
+

@@ -14,3 +14,5 @@ generics
 
 
 Partial is a utility type that return a new type by making all the type of the object optional
+
+difference between any and unknown

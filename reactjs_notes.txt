@@ -24,3 +24,14 @@ what is batching in reactjs: is a performance optimization technique that makes 
 
 
  what are side effects in reactjs application
+
+
+
+ clustor function
+ 
+ mutix block
+
+ 0 fecth at same time db query + one
+
+
+ create react app

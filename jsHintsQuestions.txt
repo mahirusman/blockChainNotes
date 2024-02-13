@@ -47,5 +47,5 @@ bind will return the function which will be called later
 apply will Immediately call the function and accept array as second arguments
 
 
-hosting: refer to behaviour where variables and function declaration are moved to the top of their containing scope
+hosting: refer to behavior where variables and function declaration are moved to the top of their containing scope
 during the compilation phase     

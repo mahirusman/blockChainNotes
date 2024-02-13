@@ -149,3 +149,9 @@ const mongooseOptions = {
 mongoose.connect(mongoDBUri, mongooseOptions);
 
 
+
+
+what is locking and how we can perform in mongoDB 
+what are atomic operators in mongoDB
+
+what is a race condition in mongoDB or nodejs
