@@ -1,0 +1,16 @@
+what are generics and Decorators
+
+
+Typescript is a super set of javaScript , it provide a way to write code in more object oriented way
+it it a static type language , it show errors at compile time and help 
+
+Decorators are feature in typescript that allow you to add annotations and metadata to class
+method properties at design time they provide a way to extend or modified the behavior
+of the class with out modifying the actual code
+
+
+
+generics 
+
+
+Partial is a utility type that return a new type by making all the type of the object optional
