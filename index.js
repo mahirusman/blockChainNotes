@@ -65,23 +65,23 @@ function flattenArray(arr) {
 const arr = [1, 2, 3, 8, [1, 3, [9, 4]]];
 const flattenedArray = flattenArray(arr);
 
-console.log(flattenedArray);
+// console.log(flattenedArray);
 
 // Output: [1, 2, 3, 8, 1, 3, 9, 4]
 
-function FlatObject(obj, prefix = "") {
-  let flattened = {};
-  for (const key in obj) {
-    if (typeof obj[key] == "object" && obj[key] !== null) {
-      let nestedObj = FlatObject(obj[key], prefix + key + ".");
-      flattened = { ...flattened, ...nestedObj };
-    } else {
-      flattened[prefix + key] = obj[key];
-    }
-  }
+// function FlatObject(obj, prefix = "") {
+//   let flattened = {};
+//   for (const key in obj) {
+//     if (typeof obj[key] == "object" && obj[key] !== null) {
+//       let nestedObj = FlatObject(obj[key], prefix + key + ".");
+//       flattened = { ...flattened, ...nestedObj };
+//     } else {
+//       flattened[prefix + key] = obj[key];
+//     }
+//   }
 
-  return flattened;
-}
+//   return flattened;
+// }
 
 // console.log("FlatObject", FlatObject({ a: 10, b: { a: 1, b: 1 } }));
 
@@ -95,19 +95,50 @@ const dobleCat = array.some((data, index) => array.indexOf(data) != index);
 // let y = { a: 1 };
 // console.log(x == y);
 
-function here(name) {
-  this.firstname = name;
+// function here(name) {
+//   this.firstname = name;
+// }
+
+// console.log("with new", new here("Usman"));
+// console.log("with out new", here("Usman"));
+
+// console.log(0 ?? 10);
+// console.log(5 || 10);
+
+// let x,
+//   y = 10;
+// console.log("here", x, y);
+
+// let x1 = (y1 = 10);
+// console.log("there", x1, y1);
+
+// write a program in js which print first non repeating element
+
+function SearchingChallenge(str) {
+  // __define-ocg__ Function to find the first non-repeating character in a string
+  var charCount = {};
+  var nonRepeatingChars = [];
+
+  // Count occurrences of each character
+  for (var i = 0; i < str.length; i++) {
+    var char = str[i];
+    if (charCount[char]) {
+      charCount[char]++;
+    } else {
+      charCount[char] = 1;
+      nonRepeatingChars.push(char);
+    }
+  }
+  console.log("nonRepeatingChars", nonRepeatingChars);
+  console.log("charCount", charCount);
+
+  // Find the first non-repeating character
+  for (var j = 0; j < nonRepeatingChars.length; j++) {
+    if (charCount[nonRepeatingChars[j]] === 1) {
+      return nonRepeatingChars[j];
+    }
+  }
 }
 
-console.log("with new", new here("Usman"));
-console.log("with out new", here("Usman"));
-
-console.log(0 ?? 10);
-console.log(5 || 10);
-
-let x,
-  y = 10;
-console.log("here", x, y);
-
-let x1 = (y1 = 10);
-console.log("there", x1, y1);
+// Example usage:
+// console.log(SearchingChallenge("agettkgaeee"));

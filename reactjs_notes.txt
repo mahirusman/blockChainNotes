@@ -10,11 +10,7 @@ what is batching in reactjs: is a performance optimization technique that makes 
  by reducing the overhead of frequent DOM updates. By grouping multiple updates together
 
 
-
-
-
-
- what is difference between useState and useReducer in reactjs
+what is difference between useState and useReducer in reactjs
 
  what is react fragment and rect portal
 
@@ -35,3 +31,17 @@ what is batching in reactjs: is a performance optimization technique that makes 
 
 
  create react app
+
+
+
+ inheritece in js
+
+
+how we can achive  OOP concepts in js
+ protoctyes
+
+
+
+ use memo and use call back better
+
+ parent hider order and hoc are same

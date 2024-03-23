@@ -71,7 +71,7 @@ Second Normal Form : 1NF + eliminates partial dependencies by ensuring that each
 Third Normal Form : Eliminates transitive dependencies by ensuring that no non-key column is dependent on another non-key column
 
 
-/////
+
 what is indexing : indexing is query performance optimization technique that enables database to store small 
 portion of collection of data in a data structure that in become easy to get specific records instead of searching 
 the whole collection 
